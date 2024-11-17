@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  max-width: 70ch;
+  padding: 3rem 1rem;
+  margin: auto;
+  font-family: system-ui, sans-serif;
+  line-height: 1.75;
+  font-size: 1.25rem;
+}
+
+input,
+button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+  overflow-y: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  textarea {
+    background-color: #1e1e1e;
+    color: #e6e6e6;
+  }
+}
